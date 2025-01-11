@@ -1,0 +1,19 @@
+{
+  "name": "blog-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daman20/blog-2.git"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daman20/blog-2/issues"
+  },
+  "homepage": "https://github.com/daman20/blog-2#readme"
+}
