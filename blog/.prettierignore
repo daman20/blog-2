@@ -1,4 +1,7 @@
-# Package Managers
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
+.svelte/**
+.svelte-kit/**
+.vercel_build_output/**
+static/**
+build/**
+node_modules/**
+.yarn/**

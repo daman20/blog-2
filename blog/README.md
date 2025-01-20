@@ -1,58 +1,49 @@
-# create-svelte
+# SvelteKit Static Blog Template
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A lightweight and customizable template for blogs and portfolio websites, built with SvelteKit.
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+<p align="center">
+    <img src="static/images/site-screenshot.png" alt="Screenshot" />
+</p>
 
-## Creating a project
+It was built with a few goals in mind:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Responsive design: the website looks and behaves well on screens of all sizes;
+- Fast: it only loads what's needed for it to work;
+- Adaptive: it supports dark mode from most operating systems by default (desktop and mobile);
+- Pretty: have a pleasant design that is both accessible and pleasing to the eye.
 
-```bash
-# create a new project in the current directory
-npx sv create
+I achieved this with the help of SvelteKit. There is almost no JavaScript running, and it actually works with JS disabled! While JS is awesome, it's important to know when it's not needed.
 
-# create a new project in my-app
-npx sv create my-app
-```
+# Demo site
 
-## Developing
+You can see the template live [on the demo site](https://sveltekit-static-blog-template.vercel.app/). Additionally, you can check all components in isolation [on Histoire](https://histoire-sveltekit-static-blog-template.vercel.app/).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Building & Running Locally
 
-```bash
+To run it locally, you simply have to run:
+
+```shell
+# First, install dependencies
+npm install
+# Then, run it on dev mode
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+The site should now be available at http://localhost:5173/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
 
-## Building
+# Histoire / Storybook
 
-To build your library:
+I've used [Histoire](https://histoire.dev), a Vite-based Storybook alternative to be able to see and develop components in isolation. To open it, run `npm run story:dev`.
 
-```bash
-npm run package
-```
+# Image Optimization
 
-To create a production version of your showcase app:
+This website uses [image-transmutation](https://github.com/matfantinel/image-transmutation) to automatically optimize images used in the site. This means that even if you use non-optimal image formats (like lossless PNGs), it will go over the images and convert images to WebP and AVIF for you, as long as you use the `<Image />` component instead of `<img />`. This is done on build, so it doesn't change anything when running the website locally.
 
-```bash
-npm run build
-```
+# Managing Posts
 
-You can preview the production build with `npm run preview`.
+All posts are Markdown files that are processed with [MDsveX](https://mdsvex.pngwn.io/) to allow using Svelte components inside them. In order to make it easier to manage posts, I highly recommend the [Front Matter VS Code extension](https://frontmatter.codes/), which gives you a nice CMS-like UI.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# Hosting
 
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+When you run `npm run build`, the website will be compiled into a static site, which means you can host it pretty much anywhere. Some free alternatives I recommend are GitHub Pages, Vercel and Netlify.
