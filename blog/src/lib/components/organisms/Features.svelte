@@ -6,24 +6,7 @@
 	export let features: Feature[];
 </script>
 
-<ContentSection
-	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
->
-	<div class="features-container">
-		<div class="three-group-grid">
-			{#each features as feature}
-				<FeatureCard
-					name={feature.name}
-					description={feature.description}
-					image={feature.image}
-					tags={feature.tags}
-				/>
-			{/each}
-		</div>
-	</div>
-</ContentSection>
+
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';

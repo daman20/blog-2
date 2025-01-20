@@ -5,10 +5,12 @@ date: 2025-01-20T05:54:30Z
 excerpt: Using Natural Language Processesing to automate the converion of therapist notes into standardized metrics
 coverImage: /images/posts/research-figs/Screenshot_2025-01-12_at_11.35.07_PM.png
 tags:
-  - Research
+  - SRP
   - Poster
   - Data Science
   - Project
+  - Research
+  - Individual
 ---
 
 ## Presentation

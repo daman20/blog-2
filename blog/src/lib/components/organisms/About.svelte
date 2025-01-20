@@ -7,13 +7,10 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			This is for my
+			<SparklingHighlight color="secondary">projects and hobbies!</SparklingHighlight>
 		</h2>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
-		</p>
+
 		<div class="socials">
 			<span>Socials:</span>
 			<Socials />
