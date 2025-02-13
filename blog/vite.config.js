@@ -10,6 +10,7 @@ const config = {
 		}
 	},
 	server: {
+		allowedHosts: ['frontend_web'],
 		host: true
 	}
 };
