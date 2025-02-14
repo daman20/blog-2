@@ -10,7 +10,7 @@ const config = {
 		}
 	},
 	server: {
-		allowedHosts: ['frontend_web'],
+		allowedHosts: ['frontend_web', 'amanagrawal1.com'],
 		host: true
 	}
 };
