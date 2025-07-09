@@ -134,6 +134,7 @@
 
 <script lang="ts">
   import Top from '../top.svelte';
+  import Footer from '../footer.svelte';
   import { onMount } from 'svelte';
   type Poster = {
     name: string;
@@ -206,3 +207,4 @@
   {/if}
 </div>
   
+<Footer />
