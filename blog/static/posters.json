@@ -1,0 +1,17 @@
+[
+  {
+    "name": "From Notes to Numbers",
+    "fileName": "Automating the Standardization of Therapeutic Notes.jpg",
+    "description": "An increasing amount of crucial information is stored in Electronic Health Records (EHRs). This project aims to standardize the notes taken by clinicians to track patient progress."
+  },
+  {
+    "name": "Parks and Property",
+    "fileName": "Data Science 2025 Poster.png",
+    "description": "How do parks affect nearby property values? This project uses data from the 3 largest cities in the US to analyze the relationship between parks and property values."
+  },
+  {
+    "name": "Vibrio Vulnificus Infections and their Link to Weather Conditions",
+    "fileName": "Data Poster 2024.png",
+    "description": "How does the weather affect the spread of Vibrio Vulnificus?"
+  }
+] 
