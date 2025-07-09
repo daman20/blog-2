@@ -34,7 +34,6 @@
 <style>
 :global(body) {
   font-family: 'Inter', system-ui, sans-serif;
-  background: #fff;
   color: #181818;
   margin: 0;
 }
