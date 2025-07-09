@@ -1,7 +1,14 @@
+<script lang="ts">
+    import Top from '../top.svelte';
+    import Footer from '../footer.svelte';
+    import { onMount } from 'svelte';
+</script>
+<Top />
+
 <style>
     body {
         font-family: 'Inter', sans-serif;
-        margin: 20px;
+        margin: 10px;
         padding: 20px;
         border: 1px solid #ccc;
         border-radius: 10px;
@@ -10,9 +17,6 @@
         margin: 0 auto;
         color: #000000;
         text-align: center;
-    }
-    div.ui-menu li {
-    list-style:none;
 
     }
     ul{
@@ -33,15 +37,10 @@
         padding: 10px 20px;
         border-radius: 5px;
     }
-
 </style>
-
 <body>
-    <div class="ui-menu">
-        <ul>
-            <li><a href="/poster-gallery">Poster Gallery</a></li>
-            <li><a href="/photo-gallery"> Photo Gallery</a></li>
-            <li><a href="/projects"> My projects</a></li>
-        </ul>
-    </div>
+<ul>
+    <li><a href="/projects/photography">Photography</a></li>
+</ul>
 </body>
+<Footer />

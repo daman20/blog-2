@@ -3,6 +3,17 @@
 </script>
 
 <style>
+  :global(body) {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  :global(main) {
+    flex: 1;
+  }
+  
   footer {
     width: 100%;
     background: #222;
@@ -14,9 +25,6 @@
     letter-spacing: 1px;
     border-top: 1px solid #444;
     margin-top: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
   }
   .footer-links {
     display: flex;
@@ -40,6 +48,13 @@
     height: 20px;
     vertical-align: middle;
   }
+
+  footer { 
+    position: sticky; 
+    top: 100vh; 
+    margin-top: 40px;
+  }
+
 </style>
 
 <footer>
