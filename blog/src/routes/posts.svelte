@@ -40,7 +40,7 @@
     <div class="ui-menu">
         <ul>
             <li><a href="/poster-gallery">Poster Gallery</a></li>
-            <li>Post 2</li>
+            <li><a href="/photo-gallery"> Photo Gallery</a></li>
             <li>Post 3</li>
         </ul>
     </div>

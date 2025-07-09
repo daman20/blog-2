@@ -1,5 +1,6 @@
 <style>
     h1 {
+        
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -9,7 +10,12 @@
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: italic;
+
+    }
+    a {
+    color: #FFFFFF;
+    text-decoration: none;
     }
 </style>
 
-<h1>Aman Agrawal</h1>
+<a href="/"><h1>Aman Agrawal</h1> </a>
