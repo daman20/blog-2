@@ -7,7 +7,7 @@
   {
     "name": "Niagara Falls",
     "fileName": "Niagara Falls.jpg",
-    "description": "A scenic view from the top of a the observation deck."
+    "description": "A scenic view from the top of the observation deck."
   },
   {
     "name": "Night Beach",
@@ -23,5 +23,10 @@
     "name": "Southwest",
     "fileName": "Southwest.JPG",
     "description": "I was delayed in Nashville airport so I decided to practice shutter dragging."
+  },
+  {
+    "name": "Alcatraz",
+    "fileName": "Alcatraz.JPG",
+    "description": "Went to SF in Spring of 2024 and took a tour of Alcatraz. This is a photo of the island from the ferry. Also, this is my wallpaper."
   }
 ] 

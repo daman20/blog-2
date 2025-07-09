@@ -4,14 +4,7 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-  }
-  .page-wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .container {
-    flex: 1 0 auto;
+    font-family: 'Inter', sans-serif;
   }
 </style>
 
@@ -21,10 +14,6 @@
   import Footer from './footer.svelte';
 </script>
 
-<div class="page-wrapper">
-  <div class="container">
-    <Top />
-    <Posts />
-  </div>
-  <Footer />
-</div>
+<Top />
+<Posts />
+<Footer />

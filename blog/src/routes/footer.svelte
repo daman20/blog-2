@@ -14,6 +14,9 @@
     letter-spacing: 1px;
     border-top: 1px solid #444;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
   .footer-links {
     display: flex;
