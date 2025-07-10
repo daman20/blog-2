@@ -43,7 +43,7 @@
     <li><a href="/projects/photography">Photography</a></li>
     <li><a href="/projects/werner">Werner the Car</a></li>
     <li> 3d printing protein structures</li>
-    <li> Digitizing a Lifetime of Photos</li>
+    <li><a href="/projects/digitizing-photos"> Digitizing a Lifetime of Photos </a></li>
     <li> Building a Computer</li>
     <li> The world's fastest minecraft server</li>
     <li> Ham Radio</li>
