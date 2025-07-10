@@ -52,6 +52,13 @@
     <br>
     <p>Back to work I went. After crawling under the car (because I couldn’t find my jack stands), and getting stuck for a few minutes, I couldn’t seem to find the problem. So, I brought the car to a friends house, where 5 of the smartest people I know took a look.</p>
     <br>
-    <p>Eventually, they discovered that the exhaust tubes had come unwelded from the flex pipes</p>
+    <p>Eventually, we discovered that the exhaust tubes had come unwelded from the flex pipes</p>
+    <p> This job was a bit too time intensive for me, so I got it done by a shop in Davie</p>
+    <p>They did a great job, and Werner kept running for another 12k miles!</p>
+    <br>
+    <h3> The Final Straw </h3>
+    <p> After all this work, Werner had proved more reliable than expected, given it was a 15 year old german car, and took me back and forth from school everyday.</p>
+    <p> However, that time came to a close when a distracted driver rear ended me. Everyone was ok but Werner was totalled.</p>
+    <p> And so, it is there where my journey with Werner comes to a close.</p>
 
 </body> 
