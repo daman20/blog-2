@@ -41,6 +41,7 @@
 <body>
 <ul>
     <li><a href="/projects/photography">Photography</a></li>
+    <li><a href="/projects/werner">Werner the Car</a></li>
 </ul>
 </body>
 <Footer />
