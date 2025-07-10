@@ -42,6 +42,14 @@
 <ul>
     <li><a href="/projects/photography">Photography</a></li>
     <li><a href="/projects/werner">Werner the Car</a></li>
+    <li> 3d printing protein structures</li>
+    <li> Digitizing a Lifetime of Photos</li>
+    <li> Building a Computer</li>
+    <li> The world's fastest minecraft server</li>
+    <li> Ham Radio</li>
+    <li> Website deployment</li>
+    <li> An All in One PCB Solution for Animatronics Control</li>
+    <li> Automated Satalite Downloading</li>
 </ul>
 </body>
 <Footer />
