@@ -56,6 +56,7 @@
   width: auto;
   max-width: 100%;
   height: auto;
+  max-height: 800px;
   border-radius: 1.1rem;
   background: #f3f3f3;
   box-shadow: none;
