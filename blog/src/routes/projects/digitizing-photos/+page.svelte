@@ -28,6 +28,7 @@
     h3{
         font-size: x-large;
         top: 100px;
+        text-align: center;
     }
 </style>
 
