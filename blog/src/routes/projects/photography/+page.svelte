@@ -38,7 +38,7 @@
     <p> I've always been into photography. For a while, that manifested as shooting on my iPhone. As part of that, I've taken a variety of shots, my favorite being the one below, which got reposted by NASA Artemis</p>
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fantastic details on this one! 🌕📸</p>&mdash; NASA Artemis (@NASAArtemis) <a href="https://twitter.com/NASAArtemis/status/1587173673429045248?ref_src=twsrc%5Etfw">October 31, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     
-    <h3> Now </h3>
+    <h3> My Bag </h3>
     <p> More recently, I've stumbled upon my dad's old camera gear from 1982. His kit includes a Nikon FE, a 55mm Macro lens, and a 35mm Macro lens</p>
     <img src="/photos/Nikon FE.jpeg" alt="Nikon FE Camera" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
     <p> While I'm still working on using the FE body, I also have a Nikon Z8, which is what I shoot most photos on these days. </p>

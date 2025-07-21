@@ -82,6 +82,12 @@
 }
 </style>
 <Top />
+<div class="photo-blog-summary" style="max-width:900px;margin:2rem auto 1.5rem auto;padding:1.2rem 1.5rem 1.2rem 1.5rem;background:#f8f8f8;border-radius:1rem;text-align:center;">
+  <h2 style="margin:0 0 0.5rem 0;font-size:1.5rem;font-weight:600;">About My Photography</h2>
+  <p style="margin:0 0 0.5rem 0;font-size:1.05rem;line-height:1.6;">
+    I have always been passionate about photography, starting with my iPhone and now shooting with a Nikon Z8 and my dad's vintage Nikon FE. My journey, favorite shots, and more about my gear are shared in my <a href="/projects/photography" style="color:#0070f3;text-decoration:underline;">photography bag</a>.
+  </p>
+</div>
 <div class="page-container">
   <div class="photo-list">
     {#each images as image}
