@@ -30,6 +30,16 @@
         font-size: x-large;
         top: 100px;
     }
+    img {
+        max-width: 100%;
+        max-height: 400px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
 <Top />
 <body>
@@ -45,6 +55,10 @@
     <p> I also created Virtual Machines for Home Assistant and a few gaming servers. However, I quickly found that the gaming servers were overloading my NAS, as I specced it to only be a storage device.</p>
     <h3> Proxmox </h3>
     <p> I realized that I could create a virtualization cluster using proxmox. After finding a deal on 3 HP DL380P's at an enterprise auction, I began my journey on Proxmox.</p>
+    <img src="/etc-photos/DL380s.JPG" alt="Proxmox Cluster" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <p style="font-size: 0.98rem; color: #555; font-style: italic; margin-top: 0.5rem; margin-bottom: 2rem; text-align: center; max-width: 600px;">
+        My Proxmox cluster: three HP DL380P servers stacked in my homelab rack.
+    </p>
     <p> First, I set up a network subnet, and began building the cluster. Then, I migrated my VMs and Docker containers to the new cluster. I also set up a storage cluster by linking back to my NAS over a gigabit switch, which allowed me to have a centralized storage system that could be expanded dynamically.</p>
     <p> I also set up a few other VMs, including a Minecraft server, PBX server, and a few others.</p>
     <p> All of my servers are named after the Avengers. The NAS is named IronMan, and the Proxmox servers are named Thor, Loki (this was the one giving me trouble), and Spiderman.</p>
