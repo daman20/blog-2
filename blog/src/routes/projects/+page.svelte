@@ -45,9 +45,9 @@
     <li> 3d printing protein structures</li>
     <li><a href="/projects/digitizing-photos"> Digitizing a Lifetime of Photos </a></li>
     <li> Building a Computer</li>
-    <li> The world's fastest minecraft server</li>
+    <li><a href="/projects/servers"> My growing homelab </a></li>
     <li> Ham Radio</li>
-    <li> Website deployment</li>
+    <li><a href="/projects/website"> Website deployment </a></li>
     <li> An All in One PCB Solution for Animatronics Control</li>
     <li> Automated Satalite Downloading</li>
 </ul>

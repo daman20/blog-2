@@ -37,10 +37,12 @@
 <body>
 <h3> Storytime</h3>
 
-<p>A few Thanksgivings ago, my family was going through photos in my grandparents house. At that time, there were 2 large tubs of photos. After going through a few of them, we found many that were disintegrating, and I decided to archive all of these photos for the family.</p>
+<p>A few Thanksgivings ago, my family was going through photos in my grandparents house. At that time, there were 2 large tubs of photos.</p>
+<p> These photos had a variety of photos, from mold to disintegration. Also, my relatives that knew who was in each photo were getting older, and forgetting some of the people.</p>
+<p> So, I decided to begin digitzing these photos, and tagging who each person was.</p>
 
 <h3> My part </h3>
-<p> In that process, I've acquired a FastFoto scanner, and worked with my mom to tag each photo with the people in it and approximate time.</p>
+<p> In that process, I've acquired a FastFoto scanner, and worked with my mom, aunts, uncle, and grandparents to tag each photo with the people in it and approximate time.</p>
 <p> Each photo was uploaded to a PhotoPrism instance on my servers. Also, since I have a library of tagged people, it uses facial recognition to help tag future photos. </p>
 <p> The photos are accessible to members of my family and I am working on sourcing more photos to scan, with the end goal of having the majority of my families photos digitized.</p>
 <p> As it stands, I have just over 1000 photos in the repository.</p>
