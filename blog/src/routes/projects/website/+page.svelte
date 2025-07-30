@@ -36,7 +36,7 @@
     <h3> Hosting </h3>
     <p> I decided I specifically wanted my website to NOT be hosted on the cloud, and to do as much as safely possible off of my servers. </p>
     <p> In that vain, I decided to self-host this on my Proxmox High Availability cluster. I have an Ubuntu VM that is set to automatically switch between servers based on availability</p>
-    <p> I wrote my website in Svelte, which I commit to a git repo and push to my Github.</p>
+    <p> I wrote my website in Svelte, which I commit to <a href="https://github.com/daman20/blog-2">this git repo </a> and push to my Github.</p>
     <p> Then, <a href="https://github.com/daman20/node-updater">this script I wrote </a> (which runs every 10 mins) scans for updates. It then downloads the new version, automatically installs dependencies, and deploys using PM2.</p>
     <p> I have NGINX Reverse Proxy Manager, combined with a Cloudflared Tunnel to transfer my traffic through the Cloudflare CDN.</p>
     <p> I also have a custom domain, which I purchased through GoDaddy, and set the records to transfer all web traffic to the Cloudflare. </p>
